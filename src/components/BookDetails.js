@@ -91,7 +91,7 @@ function BookDetails({handleClick, handleDelete}) {
                     {description}
                 </p>
                 <span>
-                    <button style={{marginLeft:"10px"}} onClick={() => handleDelete(book)}>Delete from Library</button> 
+                    <Link to="/"><button style={{marginLeft:"10px"}} onClick={() => handleDelete(book)}>Delete from Library</button></Link>
                     <Link to="/"><button style={{marginLeft:"10px"}}>Return to Library</button></Link>
                 </span>
             </div>

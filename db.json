@@ -109,6 +109,16 @@
       "description": "The year 1984 has come and gone, but George Orwell's prophetic, nightmarish vision in 1949 of the world we were becoming is timelier than ever. 1984 is still the great modern classic of \\\"negative utopia\\\"—a startlingly original and haunting novel that creates an imaginary world that is completely convincing, from the first sentence to the last four words. No one can deny the novel's hold on the imaginations of whole generations, or the power of its admonitions—a power that seems to grow, not lessen, with the passage of time.",
       "publishYear": "1950",
       "bookshelf": true
+    },
+    {
+      "id": 12,
+      "title": "The Sixth Extinction: An Unnatural History",
+      "author": "Elizabeth Kolbert",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372677697l/17910054.jpg",
+      "genre": "nonfiction",
+      "description": "Over the last half-billion years, there have been five mass extinctions, when the diversity of life on earth suddenly and dramatically contracted. Scientists around the world are currently monitoring the sixth extinction, predicted to be the most devastating extinction event since the asteroid impact that wiped out the dinosaurs. This time around, the cataclysm is us.\n\nIn prose that is at once frank, entertaining, and deeply informed, The New Yorker writer Elizabeth Kolbert tells us why and how human beings have altered life on the planet in a way no species has before. Interweaving research in half a dozen disciplines, descriptions of the fascinating species that have already been lost, and the history of extinction as a concept, Kolbert provides a moving and comprehensive account of the disappearances occurring before our very eyes. She shows that the sixth extinction is likely to be mankind's most lasting legacy, compelling us to rethink the fundamental question of what it means to be human. ",
+      "publishYear": "2014",
+      "bookshelf": true
     }
   ]
 }
