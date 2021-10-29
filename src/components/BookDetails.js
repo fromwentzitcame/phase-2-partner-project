@@ -34,7 +34,7 @@ function BookDetails({handleClick, handleDelete}) {
     const id = useParams().id
 
     useEffect(() => {
-        fetch(`http://localhost:3000/books/${id}`)
+        fetch(`https://pure-thicket-24955.herokuapp.com/books/${id}`)
             .then(resp => resp.json())
             .then(data => {
                 setBook(data)
@@ -43,7 +43,7 @@ function BookDetails({handleClick, handleDelete}) {
                     setClicked(true)
                 }
             })
-        }, [])
+        }, [id])
 
     if(!isLoaded) return <div style={{textAlign: "center"}}><h1>Loading...</h1></div>
 

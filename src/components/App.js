@@ -44,7 +44,7 @@ function App() {
 
 // GET data from local db.json
   useEffect(() =>{
-    fetch('http://localhost:3000/books')
+    fetch('https://pure-thicket-24955.herokuapp.com/books')
       .then(resp => resp.json())
       .then(data => {
         setAllBooks(data)
@@ -68,7 +68,7 @@ function App() {
     if (formData.img === "") {
       formData.img = "http://lgimages.s3.amazonaws.com/nc-md.gif"
     }
-    fetch('http://localhost:3000/books', {
+    fetch('https://pure-thicket-24955.herokuapp.com/books', {
       method: "POST",
       headers: {
         "Content-Type" : "application/json"
@@ -105,7 +105,7 @@ function App() {
   }
 
   function handleClick(book) {
-    fetch(`http://localhost:3000/books/${book.id}`, {
+    fetch(`https://pure-thicket-24955.herokuapp.com/books/${book.id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json",
@@ -144,7 +144,7 @@ function App() {
   }
   
   function handleDelete(book) {
-    fetch(`http://localhost:3000/books/${book.id}`, {
+    fetch(`https://pure-thicket-24955.herokuapp.com/books/${book.id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json",
