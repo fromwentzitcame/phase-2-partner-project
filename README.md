@@ -1,4 +1,20 @@
 # Phase 2 Partner Project
+## Final Working Product
+
+### App Name: Book Nook
+Contributors: Peter Fontana and Alex Wentz
+
+[Check out the live site here](https://booknook-project.netlify.app/)
+
+Functionality and Features
+* Uses a local db.json file with book objects to populate page on load
+* User can add a book that persists to the page, as well as delete
+* User can add books to their bookshelf, as well as remove
+* User can search the catalog or bookshelf
+* User can click to see a details page for each book
+
+---------------
+
 ## Minimum Viable Product Proposal
 
 ### App Name: Book Nook
