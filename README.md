@@ -5,6 +5,7 @@
 Contributors: Peter Fontana and Alex Wentz
 
 [Check out the live site here](https://booknook-project.netlify.app/)
+
 [See backend here](https://github.com/fromwentzitcame/json-server-book-nook)
 
 Functionality and Features
